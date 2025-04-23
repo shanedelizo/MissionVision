@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from MV.views import sbc
+from MV.views import sbc, bargraph
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('vmg/', sbc),
+    path('bargraph/', bargraph)
 ]
