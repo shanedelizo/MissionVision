@@ -20,5 +20,5 @@ from MV.views import sbc
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', sbc),
+    path('vmg/', sbc),
 ]
